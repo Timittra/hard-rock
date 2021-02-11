@@ -22,7 +22,7 @@ const displaySongs = songs => {
       <div class="col-md-9">
              <h3 class="lyrics-name">${song.title}</h3>
              <p class="author lead">Album by <span>${song.artist.name}</span></p>
-             <audio controls autoplay='false'>
+             <audio controls autoplay>
                 <source src="${song.preview}" type="audio/mpeg">
              </audio>
       </div>
